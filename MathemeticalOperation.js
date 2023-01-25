@@ -26,6 +26,14 @@ var totallFruitsAmount = 7;
 var eachFruitsPrice = totallFuitCost / totallFruitsAmount;
 console.log(eachFruitsPrice);
 
+
+// remainder operation
+var juice = 10;
+var people = 3;
+var remainder = juice % people;
+console.log(remainder);
+
+
 //-----------------//------------------
 // short hand properties:
 
