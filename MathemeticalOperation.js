@@ -25,3 +25,39 @@ var totallFuitCost = 56;
 var totallFruitsAmount = 7;
 var eachFruitsPrice = totallFuitCost / totallFruitsAmount;
 console.log(eachFruitsPrice);
+
+//-----------------//------------------
+// short hand properties:
+
+
+var x = 100;
+
+// if we want to chnage the value of x:
+x= 60;
+
+// if we want to add some value to the existing value:
+x = x +10;
+console.log(x);
+
+x += 10; // it will also do the same
+console.log(x);
+
+
+// if we want to subtract some value to the existing value:
+x -= 10;
+console.log(x)
+
+// if we want to multiply some value to the existing value:
+x*=10;
+console.log(x)
+
+// if we want to devide some value to the existing value:
+x/=10;
+console.log(x)
+
+// short hand of adding +1 ; x=x+1;
+x++;
+console.log(x)
+// short hand of adding -1 ; x=x-1;
+x--;
+console.log(x)
