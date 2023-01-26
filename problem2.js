@@ -10,5 +10,7 @@ var totallMarks = math + biology + chemistry + physics + bangla;
 var averageMark = totallMarks / 5;
 
 averageMark = averageMark.toFixed(2); 
-averageMark = parseFloat(averageMark); //as if toFixed method return string that is why again converting the result in float
+averageMark = parseFloat(averageMark);
+//as if toFixed method return string that is why again converting the result in float
+
 console.log(averageMark);
